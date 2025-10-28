@@ -1,0 +1,218 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b53f5dbb-8078-4818-9e8f-fdf90ba6d854")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 124.46 36.83) (xy 132.08 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c80bc53-ea4d-4714-9acc-49d715330b8a")
+	)
+	(bus
+		(pts
+			(xy 124.46 39.37) (xy 132.08 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca042859-03de-45e8-ad2e-40eec1cfccd0")
+	)
+	(bus
+		(pts
+			(xy 124.46 44.45) (xy 132.08 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebc59cd1-a025-41bc-ab7b-36b984685a4a")
+	)
+	(bus
+		(pts
+			(xy 124.46 41.91) (xy 132.08 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edbd6071-78a4-4d79-81ee-bd317d20a576")
+	)
+	(sheet
+		(at 132.08 33.02)
+		(size 22.86 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "32a4bb18-2695-4537-bbd4-f872ec13cb53")
+		(property "Sheetname" "DDR3"
+			(at 132.08 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 132.08 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{ADDRESS}" bidirectional
+			(at 132.08 36.83 180)
+			(uuid "b3d37997-1d4a-4083-bf6c-e059e5aa7a28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{COMMAND}" input
+			(at 132.08 41.91 180)
+			(uuid "bc20fe1c-cc4a-408b-bd12-2807e045ff8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{CLOCK}" input
+			(at 132.08 44.45 180)
+			(uuid "846aa351-112d-428f-8ca8-f6007803d173")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{DATA}" bidirectional
+			(at 132.08 39.37 180)
+			(uuid "bb7a7eb4-c720-4152-9a21-45fc181df5f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "cm0"
+				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 33.02)
+		(size 22.86 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f68014a7-1ee9-4b8d-9f3d-298c7b89ee9f")
+		(property "Sheetname" "H3"
+			(at 101.6 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cpu.kicad_sch"
+			(at 101.6 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{ADDRESS}" bidirectional
+			(at 124.46 36.83 0)
+			(uuid "28aa1e5a-6bd0-4d1a-b2e5-470314909605")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{CLOCK}" output
+			(at 124.46 44.45 0)
+			(uuid "9d36d961-8bfa-4bb5-b190-a52eb6d31850")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{DATA}" bidirectional
+			(at 124.46 39.37 0)
+			(uuid "849b3046-4f9d-45b0-a027-c9a71215d5f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{COMMAND}" output
+			(at 124.46 41.91 0)
+			(uuid "d5e7f794-9f97-4993-92d6-308930df7c93")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "cm0"
+				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
