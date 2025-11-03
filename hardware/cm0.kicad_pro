@@ -58,14 +58,14 @@
           "width": 0.0
         },
         {
-          "gap": 0.2,
-          "via_gap": 0.0,
-          "width": 0.1062
-        },
-        {
           "gap": 0.2032,
           "via_gap": 0.2,
           "width": 0.124
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.0,
+          "width": 0.1511
         }
       ],
       "drc_exclusions": [],
@@ -199,8 +199,8 @@
       "track_widths": [
         0.0,
         0.124,
-        0.1374,
         0.15,
+        0.1511,
         0.1565,
         0.2,
         0.25,
@@ -486,7 +486,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "cm0"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -739,6 +741,10 @@
     [
       "f05ec484-f958-442a-a016-134b1e35dc2c",
       "GPDI"
+    ],
+    [
+      "62512c11-db29-412e-825e-173059bf3d51",
+      "USB"
     ]
   ],
   "text_variables": {}
