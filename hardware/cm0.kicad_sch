@@ -67,6 +67,16 @@
 	)
 	(bus
 		(pts
+			(xy 125.73 123.19) (xy 125.73 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c58e3dc-22e3-4a2d-a870-bd245fd81f06")
+	)
+	(bus
+		(pts
 			(xy 166.37 111.76) (xy 173.99 111.76)
 		)
 		(stroke
@@ -134,6 +144,16 @@
 			(type default)
 		)
 		(uuid "edbd6071-78a4-4d79-81ee-bd317d20a576")
+	)
+	(bus
+		(pts
+			(xy 121.92 123.19) (xy 121.92 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f20d7b01-7db3-4072-8d0c-6b6faa1c3adb")
 	)
 	(sheet
 		(at 173.99 82.55)
@@ -469,6 +489,26 @@
 				(justify left top)
 			)
 		)
+		(pin "{eMMC}" bidirectional
+			(at 121.92 130.81 90)
+			(uuid "7632f076-4fce-41b0-83c8-cc13eacb227e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{SD}" bidirectional
+			(at 125.73 130.81 90)
+			(uuid "4f0b1f9e-fe1b-439b-9fdd-dfa75b895453")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "cm0"
 				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854"
@@ -661,6 +701,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "{eMMC}" bidirectional
+			(at 121.92 123.19 270)
+			(uuid "bfe8f267-4d4b-4815-bed6-004b672c5e16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SD}" bidirectional
+			(at 125.73 123.19 270)
+			(uuid "f55e2a50-b216-43da-98fe-796e967d9cbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
