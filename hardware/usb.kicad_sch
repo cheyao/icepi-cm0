@@ -4776,7 +4776,7 @@
 		)
 		(uuid "33390380-a25b-4690-9a9a-15ba8ba1244d")
 	)
-	(label "USB_D3-"
+	(label "USB_D2-"
 		(at 200.66 41.91 180)
 		(effects
 			(font
@@ -4816,7 +4816,7 @@
 		)
 		(uuid "63bf24be-b2ab-48ae-8903-b9ff2f629013")
 	)
-	(label "USB_D2+"
+	(label "USB_D3+"
 		(at 200.66 34.29 180)
 		(effects
 			(font
@@ -4826,7 +4826,7 @@
 		)
 		(uuid "720a6d24-49c4-4249-a551-6f432475eecd")
 	)
-	(label "USB_D2-"
+	(label "USB_D3-"
 		(at 200.66 36.83 180)
 		(effects
 			(font
@@ -4836,7 +4836,7 @@
 		)
 		(uuid "756f8d93-1ad9-4a01-8ed0-725c8d625381")
 	)
-	(label "USB_D3+"
+	(label "USB_D2+"
 		(at 200.66 39.37 180)
 		(effects
 			(font
