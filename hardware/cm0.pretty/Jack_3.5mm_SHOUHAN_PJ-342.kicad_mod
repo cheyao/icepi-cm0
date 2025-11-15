@@ -573,6 +573,13 @@
 		(roundrect_rratio 0.15)
 		(uuid "f9e09633-5f24-4970-93f3-b39b8dc7236a")
 	)
+	(pad "3" smd roundrect
+		(at 1.5 3.65)
+		(size 1.2 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "76bd2ebd-480a-4e29-9ca3-0293fed4108b")
+	)
 	(pad "4" smd roundrect
 		(at -0.15 -3.55)
 		(size 1.2 1.6)
@@ -580,14 +587,7 @@
 		(roundrect_rratio 0.15)
 		(uuid "0f7bece0-100f-45e8-a3e8-19a0279733a6")
 	)
-	(pad "5" smd roundrect
-		(at 1.5 3.65)
-		(size 1.2 1.6)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.15)
-		(uuid "76bd2ebd-480a-4e29-9ca3-0293fed4108b")
-	)
-	(pad "6" smd roundrect
+	(pad "4" smd roundrect
 		(at 2.1 -3.55)
 		(size 1.2 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")

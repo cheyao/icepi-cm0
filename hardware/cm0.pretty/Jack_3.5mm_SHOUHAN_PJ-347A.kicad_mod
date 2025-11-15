@@ -1,0 +1,297 @@
+(footprint "Jack_3.5mm_SHOUHAN_PJ-347A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "3.5mm Headphone Jack 30V Gold 1A Through Hole Audio Connector")
+	(tags "CONN JACK STEREO 3.5mm SMD")
+	(property "Reference" "REF**"
+		(at 8.15 0 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e05226a4-5ba4-4906-8775-76178bc15053")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Jack_3.5mm_SHOUHAN_PJ-347A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "412e0430-3fa2-4a6c-b2a1-54a48d9b58df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C17701691.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b380120-fcbc-43ab-9ec1-6495f446a35a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "3.5mm Headphone Jack 30V Gold 1A Through Hole Audio Connector"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74be6e20-13e7-44f5-b33e-abbbb682df55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7.5 2.4)
+		(end -7.5 -2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db4e741d-0180-4bd1-afef-575c0d30cc05")
+	)
+	(fp_line
+		(start -5.5 -2.4)
+		(end -7.5 -2.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "976c6e36-6812-4166-a3ef-edb7f13e7a46")
+	)
+	(fp_line
+		(start -5.5 -2.4)
+		(end -5.5 -3.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d23ddc68-9c1c-49d0-bbff-bca2ce02acdd")
+	)
+	(fp_line
+		(start -5.5 2.4)
+		(end -7.5 2.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e99c1534-cc63-486b-8e22-f03bbaa102a9")
+	)
+	(fp_line
+		(start -5.5 3.1)
+		(end -5.5 2.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "49bcf47c-035c-4aec-bad7-00323a543a2b")
+	)
+	(fp_line
+		(start -5.5 3.1)
+		(end 6.9 3.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "afd30d24-8b0e-45e9-a284-eb3f44bd181e")
+	)
+	(fp_line
+		(start 6.9 -3.1)
+		(end -5.5 -3.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "df9529f0-31e0-4a0d-92f4-33332e364bea")
+	)
+	(fp_line
+		(start 6.9 3.1)
+		(end 6.9 -3.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d345299b-7506-4a19-8f9d-3d879626a68c")
+	)
+	(fp_line
+		(start -7.9 -2.65)
+		(end -5.7 -2.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ec54aefb-de26-4f81-b886-f04221a73936")
+	)
+	(fp_line
+		(start -7.9 2.75)
+		(end -7.9 -2.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "97351acb-005d-4d00-afb2-04af4937bb35")
+	)
+	(fp_line
+		(start -5.7 -3.45)
+		(end 7.3 -3.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "53adc0fc-3f97-419c-a2fe-53c895d0425e")
+	)
+	(fp_line
+		(start -5.7 -2.65)
+		(end -5.7 -3.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "58d46d4e-c796-4f03-89f0-bf0f164859ba")
+	)
+	(fp_line
+		(start -5.7 2.75)
+		(end -7.9 2.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "719b0ecb-b7b1-42cb-b357-b36cd9a30c10")
+	)
+	(fp_line
+		(start -5.7 3.55)
+		(end -5.7 2.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "79374ed3-0ce5-47b9-98d6-ec17e53d3909")
+	)
+	(fp_line
+		(start 7.3 3.5)
+		(end 7.3 -3.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9268d927-1bd5-400a-ae2c-f6f18dad6c7c")
+	)
+	(fp_line
+		(start 7.3 3.55)
+		(end -5.7 3.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e55e3fef-c0b8-4f1a-b7cc-f44b4e30a470")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a76387fb-811e-4489-97fe-92d8efd7075b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -3.5 0)
+		(size 1 1)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "5d173e06-e4be-469e-9295-2d548a7cb65a")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.6 0)
+		(size 1 1)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "a0687442-8b94-4b01-9e80-400475a47029")
+	)
+	(pad "1" thru_hole oval
+		(at -4 2.4)
+		(size 2 1)
+		(drill oval 1.5 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9816080d-686c-4fac-83da-f5d3fddcff74")
+	)
+	(pad "1" thru_hole oval
+		(at -3.8 -2.4 180)
+		(size 2 1)
+		(drill oval 1.5 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2cc7b87c-9f54-4d82-83b6-5827a420944b")
+	)
+	(pad "2" thru_hole oval
+		(at -0.2 -2.4 180)
+		(size 2 1)
+		(drill oval 1.5 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0bdd2381-24f1-452c-8256-b0d347ed3490")
+	)
+	(pad "4" thru_hole oval
+		(at 2.9 2.4)
+		(size 2 1)
+		(drill oval 1.5 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0fe536fb-de28-4705-b6ab-14d5d11ce0af")
+	)
+	(pad "5" thru_hole oval
+		(at 5.8 -2.1 180)
+		(size 2 1)
+		(drill oval 1.5 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2514a1f4-d4d5-4913-967d-04092b422ceb")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/cm0.pretty/AUDIO-SMD_PJ-342-141.step"
+		(offset
+			(xyz -11.4 0 2.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
