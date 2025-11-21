@@ -6,11 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "Icepi CM0")
-		(date "2025-11-15")
+		(date "2025-11-21")
 		(rev "v1.0")
 		(company "Icy Electronics")
 		(comment 1 "Chengyin Yao (cheyao)")
 		(comment 2 "https://github.com/cheyao/icepi-cm0")
+		(comment 3 "License: Solderpad")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
@@ -2392,16 +2393,6 @@
 	(bus_alias "GPIO"
 		(members "GPIO[0..40]")
 	)
-	(text "TVS omitted because well\nI'm on a budget..."
-		(exclude_from_sim no)
-		(at 195.834 120.396 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8ecb8094-9a5a-4602-ad65-fa0584584032")
-	)
 	(junction
 		(at 82.55 121.92)
 		(diameter 0)
@@ -4757,7 +4748,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "2k"
 			(at 176.53 81.28 90)
 			(effects
 				(font
@@ -4793,7 +4784,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25879"
+		(property "LCSC Part #" "C4109"
 			(at 177.8 88.9 0)
 			(effects
 				(font
@@ -4940,7 +4931,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "2k"
 			(at 176.53 69.85 90)
 			(effects
 				(font
@@ -4976,7 +4967,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25879"
+		(property "LCSC Part #" "C4109"
 			(at 177.8 77.47 0)
 			(effects
 				(font

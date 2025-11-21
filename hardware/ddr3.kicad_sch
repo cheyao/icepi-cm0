@@ -6,11 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "Icepi CM0")
-		(date "2025-11-15")
+		(date "2025-11-21")
 		(rev "v1.0")
 		(company "Icy Electronics")
 		(comment 1 "Chengyin Yao (cheyao)")
 		(comment 2 "https://github.com/cheyao/icepi-cm0")
+		(comment 3 "License: Solderpad")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -2412,6 +2413,12 @@
 		(uuid "385e7721-3733-47bf-9d5f-e6932f17d4dd")
 	)
 	(junction
+		(at 243.84 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "420815ef-9a47-4a30-8eb9-830ab247ec44")
+	)
+	(junction
 		(at 177.8 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2548,6 +2555,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e38e8d80-657e-4d5f-bb45-3dcfb1caf467")
+	)
+	(junction
+		(at 243.84 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea4e622d-898d-406f-952f-31f76b26fc81")
 	)
 	(junction
 		(at 264.16 107.95)
@@ -3137,6 +3150,16 @@
 		)
 		(uuid "10eb1c2d-a346-44ef-8899-4251c59c500a")
 	)
+	(wire
+		(pts
+			(xy 233.68 142.24) (xy 243.84 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "117be37b-2370-476d-b5fd-4ba07043883d")
+	)
 	(bus
 		(pts
 			(xy 66.04 50.8) (xy 58.42 50.8)
@@ -3339,6 +3362,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 152.4) (xy 233.68 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3238e79a-cfbe-4c45-8d1c-d5899999c4b9")
+	)
+	(wire
+		(pts
 			(xy 71.12 109.22) (xy 77.47 109.22)
 		)
 		(stroke
@@ -3436,6 +3469,16 @@
 			(type default)
 		)
 		(uuid "40b7964a-3118-49a7-8927-e0b1ff77ce74")
+	)
+	(wire
+		(pts
+			(xy 243.84 152.4) (xy 233.68 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c7662c-80fd-4e9e-83ac-c36dde9b55a9")
 	)
 	(wire
 		(pts
@@ -4606,6 +4649,16 @@
 			(type default)
 		)
 		(uuid "c8ab9280-cdac-4bce-b417-9ef913dc47cb")
+	)
+	(wire
+		(pts
+			(xy 233.68 143.51) (xy 233.68 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb2381c1-4e60-4636-911b-ee3e1e4e6ece")
 	)
 	(wire
 		(pts
@@ -12710,7 +12763,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "2k"
 			(at 152.4 67.3099 0)
 			(effects
 				(font
@@ -12746,7 +12799,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25879"
+		(property "LCSC Part #" "C4109"
 			(at 154.94 66.04 0)
 			(effects
 				(font
@@ -14081,6 +14134,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 233.68 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "babc218b-ed3c-42cf-b8c3-54868befd584")
+		(property "Reference" "C132"
+			(at 234.442 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 234.442 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 234.6452 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 233.68 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 233.68 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 233.68 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 233.68 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b6ed2ee5-1a87-424e-b145-8a03b94fd020")
+		)
+		(pin "1"
+			(uuid "8b3c5f49-7218-43b0-9539-d82b9f8554d0")
+		)
+		(instances
+			(project "cm0"
+				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/32a4bb18-2695-4537-bbd4-f872ec13cb53"
+					(reference "C132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 154.94 76.2 0)
 		(mirror x)
@@ -14099,7 +14248,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "2k"
 			(at 152.4 77.4699 0)
 			(effects
 				(font
@@ -14135,7 +14284,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25879"
+		(property "LCSC Part #" "C4109"
 			(at 154.94 76.2 0)
 			(effects
 				(font

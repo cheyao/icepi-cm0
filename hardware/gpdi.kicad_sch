@@ -6,11 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "Icepi CM0")
-		(date "2025-11-15")
+		(date "2025-11-21")
 		(rev "v1.0")
 		(company "Icy Electronics")
 		(comment 1 "Chengyin Yao (cheyao)")
 		(comment 2 "https://github.com/cheyao/icepi-cm0")
+		(comment 3 "License: Solderpad")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -4394,7 +4395,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "2k"
 			(at 129.286 77.47 90)
 			(effects
 				(font
@@ -4429,7 +4430,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25879"
+		(property "LCSC Part #" "C4109"
 			(at 127 77.47 0)
 			(effects
 				(font
@@ -5228,7 +5229,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "2k"
 			(at 134.366 77.47 90)
 			(effects
 				(font
@@ -5263,7 +5264,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25879"
+		(property "LCSC Part #" "C4109"
 			(at 132.08 77.47 0)
 			(effects
 				(font

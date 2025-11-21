@@ -6,11 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "Icepi CM0")
-		(date "2025-11-15")
+		(date "2025-11-21")
 		(rev "v1.0")
 		(company "Icy Electronics")
 		(comment 1 "Chengyin Yao (cheyao)")
 		(comment 2 "https://github.com/cheyao/icepi-cm0")
+		(comment 3 "License: Solderpad")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -4242,6 +4243,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 68.58) (xy 281.94 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5125c9e9-985f-4d1e-9274-55aac8219a7d")
+	)
+	(wire
+		(pts
 			(xy 31.75 157.48) (xy 31.75 156.21)
 		)
 		(stroke
@@ -4612,6 +4623,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 68.58) (xy 281.94 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c53671b-2fc5-4c80-b6d0-eedffae13b19")
+	)
+	(wire
+		(pts
 			(xy 212.09 72.39) (xy 217.17 72.39)
 		)
 		(stroke
@@ -4649,6 +4670,16 @@
 			(type default)
 		)
 		(uuid "7d4a2e2b-b665-4e4c-94bf-d0118806be7b")
+	)
+	(wire
+		(pts
+			(xy 271.78 68.58) (xy 273.05 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e43c9e8-ba7f-4ea7-bdba-f10be94ad800")
 	)
 	(wire
 		(pts
@@ -5872,6 +5903,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 67.31) (xy 271.78 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e340a191-82d1-44e6-9d7b-73c1ac721fcb")
+	)
+	(wire
+		(pts
 			(xy 260.35 129.54) (xy 260.35 128.27)
 		)
 		(stroke
@@ -6707,7 +6748,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 92.71 153.6699 0)
 			(effects
 				(font
@@ -6743,7 +6784,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25744"
+		(property "LCSC Part #" "C25741"
 			(at 90.17 152.4 0)
 			(effects
 				(font
@@ -8013,7 +8054,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 92.71 81.2799 0)
 			(effects
 				(font
@@ -8049,7 +8090,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25744"
+		(property "LCSC Part #" "C25741"
 			(at 90.17 80.01 0)
 			(effects
 				(font
@@ -8313,6 +8354,100 @@
 			(project "cm0"
 				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/4796fa81-9f97-477a-89b6-db3b604885cb"
 					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 276.86 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ed56e42-4a02-4fa9-8224-6715ed399a46")
+		(property "Reference" "C131"
+			(at 276.86 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 276.86 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 273.05 69.5452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 276.86 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 276.86 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 276.86 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 276.86 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bf1fe10-4531-4ffe-8a9f-d24c82dcc62f")
+		)
+		(pin "2"
+			(uuid "8a0c689d-46a6-47f5-95d6-ad597e699c7e")
+		)
+		(instances
+			(project "cm0"
+				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/4796fa81-9f97-477a-89b6-db3b604885cb"
+					(reference "C131")
 					(unit 1)
 				)
 			)
@@ -8662,7 +8797,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 214.63 38.0999 0)
 			(effects
 				(font
@@ -8698,7 +8833,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25744"
+		(property "LCSC Part #" "C25741"
 			(at 212.09 36.83 0)
 			(effects
 				(font
@@ -11749,7 +11884,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "22k"
 			(at 92.71 163.8299 0)
 			(effects
 				(font
@@ -11785,7 +11920,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25879"
+		(property "LCSC Part #" "C25768"
 			(at 90.17 162.56 0)
 			(effects
 				(font
@@ -12687,7 +12822,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 214.63 78.7399 0)
 			(effects
 				(font
@@ -12723,7 +12858,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25744"
+		(property "LCSC Part #" "C25741"
 			(at 212.09 77.47 0)
 			(effects
 				(font
@@ -13961,6 +14096,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 281.94 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5959eb5-013a-4f4f-b4cb-649699f26529")
+		(property "Reference" "#PWR0185"
+			(at 281.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 281.94 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.94 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 281.94 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76664bae-43d8-428f-aee9-d60518b28a75")
+		)
+		(instances
+			(project "cm0"
+				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/4796fa81-9f97-477a-89b6-db3b604885cb"
+					(reference "#PWR0185")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 217.17 119.38 0)
 		(unit 1)
@@ -14142,7 +14343,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "15k"
+		(property "Value" "150k"
 			(at 92.71 71.1199 0)
 			(effects
 				(font
@@ -14178,7 +14379,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25756"
+		(property "LCSC Part #" "C2909320"
 			(at 90.17 69.85 0)
 			(effects
 				(font
@@ -15702,7 +15903,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "22k"
 			(at 214.63 88.8999 0)
 			(effects
 				(font
@@ -15738,7 +15939,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25879"
+		(property "LCSC Part #" "C25768"
 			(at 212.09 87.63 0)
 			(effects
 				(font
@@ -15775,6 +15976,72 @@
 			(project "cm0"
 				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/4796fa81-9f97-477a-89b6-db3b604885cb"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cm0:+3V3_IO")
+		(at 271.78 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea1c3140-4123-4442-9620-90852e5c9a5b")
+		(property "Reference" "#PWR0184"
+			(at 271.78 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_IO"
+			(at 271.78 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3_IO\""
+			(at 271.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1bb4655-7e86-4762-b2f6-e5f3c812d1ee")
+		)
+		(instances
+			(project "cm0"
+				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/4796fa81-9f97-477a-89b6-db3b604885cb"
+					(reference "#PWR0184")
 					(unit 1)
 				)
 			)
@@ -16241,7 +16508,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "22k"
 			(at 214.63 48.2599 0)
 			(effects
 				(font
@@ -16277,7 +16544,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25879"
+		(property "LCSC Part #" "C25768"
 			(at 212.09 46.99 0)
 			(effects
 				(font
